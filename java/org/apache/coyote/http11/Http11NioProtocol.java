@@ -30,6 +30,8 @@ import org.apache.tomcat.util.net.NioEndpoint;
  * @author Remy Maucherat
  * @author Costin Manolache
  */
+
+//NIO 是默认的 http1.1 protocol 实现方式
 public class Http11NioProtocol extends AbstractHttp11JsseProtocol<NioChannel> {
 
     private static final Log log = LogFactory.getLog(Http11NioProtocol.class);

@@ -13,7 +13,8 @@
  *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
- */
+ *//*
+
 package org.apache.coyote.http2;
 
 import java.io.IOException;
@@ -35,9 +36,11 @@ import trailers.ResponseTrailers;
 
 public class TestStream extends Http2TestBase {
 
-    /*
+    */
+/*
      * https://bz.apache.org/bugzilla/show_bug.cgi?id=61120
-     */
+     *//*
+
     @Test
     public void testPathParam() throws Exception {
 
@@ -145,3 +148,4 @@ public class TestStream extends Http2TestBase {
         }
     }
 }
+*/

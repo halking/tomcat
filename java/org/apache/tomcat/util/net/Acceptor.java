@@ -61,6 +61,7 @@ public class Acceptor<U> implements Runnable {
         int errorDelay = 0;
 
         // Loop until we receive a shutdown command
+        //TCP连接接收线程轮询  直到收到shutdown命令
         while (endpoint.isRunning()) {
 
             // Loop if endpoint is paused
