@@ -38,7 +38,6 @@ public interface UserDatabase {
      * @return the UserConfig listener with which we are associated.
      */
     public UserConfig getUserConfig();
-    GlobalNamingResources
 
     /**
      * Set the UserConfig listener with which we are associated.
